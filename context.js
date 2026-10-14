@@ -1,18 +1,5 @@
-// Period Tracker - Context script
-onLibrary_PeriodTracker();
-
-const modifier = (text) => {
-  onLibrary_PeriodTracker();
-
-  const block = PeriodTracker.buildContextBlock();
-  const result = { text: `${block}${text}` };
-
-  // Preserve upstream stop flag if it exists in the script sandbox.
-  if (typeof stop !== "undefined") {
-    result.stop = stop;
-  }
-
-  return result;
-};
-
+// Lilith Period Tracker v2.0.0 — Lilith6666666 (Alex), MIT.
+// Official v1 Context opt-in: preserve the cache prefix and append only what fits.
+// @cache-compatible
+const modifier = (text) => LPT.hook("context", text, typeof stop === "undefined" ? undefined : stop);
 modifier(text);
