@@ -200,8 +200,6 @@ npm test
 npm run validate
 ```
 
-The Node `node:test` suite runs isolated VM hooks with persistent JSON-safe state and mocked Story Card APIs, including failure paths. It covers the 25 requested acceptance groups; live-only cases have unfilled result fields in [MANUAL-TESTS.md](./docs/MANUAL-TESTS.md). Test names identify specific coverage. [Baseline audit](./docs/BASELINE-AUDIT.md), [API research](./docs/API-RESEARCH.md) and [release notes](./CHANGELOG.md) explain decisions and limits.
-
-Source: [Lilith6666666/lpt-lilith-period-tracker](https://github.com/Lilith6666666/lpt-lilith-period-tracker). Made by Lilith6666666 (Alex), under the original [MIT License](./LICENSE). AI Dungeon and the upstream authors retain credit for their platforms/projects; no upstream code is bundled. The selected Alex cover remains at its original committed path, unchanged.
+Source: [Lilith6666666/lpt-lilith-period-tracker](https://github.com/Lilith6666666/lpt-lilith-period-tracker). Made by Lilith6666666 (Alex), under the original [MIT License](./LICENSE). AI Dungeon and the upstream authors retain credit for their platforms/projects; no upstream code is bundled.
 
 May your continuity be better than your character's sleep schedule.
